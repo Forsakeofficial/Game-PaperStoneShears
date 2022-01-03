@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt na studia - Jakub Hoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="home">
+  <div class="header-width">
+    <h1>PAPIER-KAMIEŃ-NOŻYCE</h1>
+  </div>
+  <!---NAV-->
+  <nav class="navbar">
+    <div class="inner-width">
+      <button class="menu-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-menu">
+        <a href="#home">home</a>
+        <a href="#about">o grze</a>
+        <a href="#game">gra</a>
+        <a href="#stats">statystyki</a>
+        <a href="#contact">kontakt</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!--ABOUT-PAGE-->
+  <section id="about">
+    <div class="about-width">
+      <h1>Czym jest gra papier-kamien-nożyce?</h1>
+      <div class="div-about-info">
+        <p>Papier, kamień, nożyce – gra towarzyska dla dwóch lub więcej osób, będąca uproszczoną wersją mory. W „papier, kamień, nożyce” gra się, używając dłoni graczy.</p>
+        <img src="/img/aboutImg.jpg">
+      </div>
+      <h1>Zasady</h1>
+      <p>Gra składa się z kolejnych tur. W każdej turze obydwaj gracze, na umówiony sygnał, szybko wystawiają przed siebie dłoń, pokazującą symbol papieru, kamienia lub nożyc. Gracz, który pokazał silniejszy symbol, otrzymuje jeden punkt. W przypadku pokazania dwóch takich samych symboli następuje remis – punktu brak. Oto hierarchia symboli:
+
+        nożyce są silniejsze od papieru, ponieważ go tną,
+        kamień jest silniejszy od nożyc, ponieważ je tępi,
+        papier jest silniejszy od kamienia, ponieważ go owija.
+        Gracz, który pierwszy uzyska umówioną wcześniej ilość punktów, wygrywa partię.</p>
+      <h1>Historia</h1>
+      <p>Gra została wynaleziona w Japonii pod koniec XIX w. pod nazwą Jan-ken-pon (jap. じゃんけんぽん) lub bardziej potoczną nazwą janken (jap. じゃんけん) i rozpowszechniona po świecie w XX w. Pochodzenie nazwy nie jest znane.</p>
+    </div>
+  </section>
+
+  <!--GAME-->
+  <section id="game">
+    <div class="game-width">
+      <h1>PAPIER-KAMIEŃ-NOŻYCE</h1>
+      <h2>Wybierz swoją opcje</h2>
+      <div class="game-select">
+        <img data-option="papier" src="/img/paper.jpg" alt="papier">
+        <img data-option="kamień" src="/img/stone.jpg" alt="kamień">
+        <img data-option="nożyce" src="/img/shears.jpg" alt="nożyce">
+      </div>
+      <button class="start">START</button>
+      <h1>Wyniki gry:</h1>
+      <div class="game-panel">
+        <div class="game-panel-left">
+          <p>Twój wybór: <span data-summary="you"></span></p>
+          <p>Wybór komputera: <span data-summary="computer"></span></p>
+        </div>
+        <div class="game-panel-right">
+          <p>Zwycięzca gry: <span data-summary="winner"></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--STATS-->
+  <section id="stats">
+    <div class="stats-width">
+      <h1>STATYSTYKI</h1>
+      <div class="stats-game">
+        <p class="numbers">Liczba gier: <span>0</span></p>
+        <p class="wins">Liczba wygranych: <span>0</span></p>
+        <p class="losses">Liczba przegranych: <span>0</span></p>
+        <p class="draws">Liczba remisów: <span>0</span></p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer id="contact">
+    <h1>Jakub Hoque - Student II roku Informatyka | 2021</h1>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
