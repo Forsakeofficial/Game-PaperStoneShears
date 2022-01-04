@@ -281,6 +281,11 @@ header{
     bottom: 14px;
   }
 
+  .div-about-info img{
+    width: 400px;
+    height: 350px;
+  }
+
   .div-about-info{
     flex-wrap: wrap;
   }
