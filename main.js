@@ -22,8 +22,6 @@ const gameControl = {
   computer: null
 }
 
-const hands = document.querySelectorAll('.game-select img');
-
 //funkcja wybierająca dany IMG
 
 function handImg(){
@@ -86,6 +84,8 @@ function startGame(){
   publishResult(gameControl.player, gameControl.computer, gameResult);
 
 }
+
+const hands = document.querySelectorAll('.game-select img');
 
 hands.forEach(hand => hand.addEventListener('click', handImg));
 
