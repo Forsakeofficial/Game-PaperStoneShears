@@ -58,15 +58,15 @@ function publishResult(player, computer, result){
 
   if (result === "win") {
     document.querySelector('p.wins span').textContent = ++gameStats.wins;
-    document.querySelector('[data-summary="winner"]').textContent = "Ty wygrałeś!!!!"
+    document.querySelector('[data-summary="winner"]').textContent = "Gratulacje wygrałeś ! :)"
     document.querySelector('[data-summary="winner"]').style.color = "green";
    } else if (result === "loss") {
     document.querySelector('p.losses span').textContent = ++gameStats.losses;
-    document.querySelector('[data-summary="winner"]').textContent = "Komputer wygrał :("
+    document.querySelector('[data-summary="winner"]').textContent = "Niestety przegrałeś :("
     document.querySelector('[data-summary="winner"]').style.color = "red";
    } else {
     document.querySelector('p.draws span').textContent = ++gameStats.draws;
-    document.querySelector('[data-summary="winner"]').textContent = "Remis :\\"
+    document.querySelector('[data-summary="winner"]').textContent = "REMIS"
     document.querySelector('[data-summary="winner"]').style.color = "gray";
    }
  }
